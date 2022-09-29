@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CFC5C832FCC646C85BE4A3 /* Pods_9_Hafta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B779AF7535EE5264B1CBB1 /* Pods_9_Hafta.framework */; };
 		84229CD828C2918C00C44386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84229CD728C2918C00C44386 /* AppDelegate.swift */; };
 		84229CDA28C2918C00C44386 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84229CD928C2918C00C44386 /* SceneDelegate.swift */; };
 		84229CDC28C2918C00C44386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84229CDB28C2918C00C44386 /* ViewController.swift */; };
 		84229CDF28C2918C00C44386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84229CDD28C2918C00C44386 /* Main.storyboard */; };
 		84229CE128C2918F00C44386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84229CE028C2918F00C44386 /* Assets.xcassets */; };
-		84229CE428C2918F00C44386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84229CE228C2918F00C44386 /* LaunchScreen.storyboard */; };
+		844AFD6228C60F0B00C6219F /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AFD6128C60F0B00C6219F /* AViewController.swift */; };
+		844AFD6428C6191E00C6219F /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AFD6328C6191E00C6219F /* BViewController.swift */; };
+		84783C7728C75F13008379AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84783C7928C75F13008379AE /* Localizable.strings */; };
+		84783C7D28C7B5C3008379AE /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84783C7C28C7B5C3008379AE /* MovieModel.swift */; };
+		84783C7F28C7BC8D008379AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84783C7E28C7BC8D008379AE /* Constants.swift */; };
+		84F9BE3B28C4FD0B00360E19 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9BE3A28C4FD0B00360E19 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +28,20 @@
 		84229CDB28C2918C00C44386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84229CDE28C2918C00C44386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84229CE028C2918F00C44386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84229CE328C2918F00C44386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84229CE528C2918F00C44386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844AFD6128C60F0B00C6219F /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		844AFD6328C6191E00C6219F /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		84783C7128C75E09008379AE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		84783C7328C75E23008379AE /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		84783C7828C75F13008379AE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84783C7A28C77754008379AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84783C7B28C77755008379AE /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84783C7C28C7B5C3008379AE /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		84783C7E28C7BC8D008379AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84F9BE3A28C4FD0B00360E19 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D9449DBA28F93B4B37E032BE /* Pods-9.Hafta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.Hafta.release.xcconfig"; path = "Target Support Files/Pods-9.Hafta/Pods-9.Hafta.release.xcconfig"; sourceTree = "<group>"; };
+		E4B779AF7535EE5264B1CBB1 /* Pods_9_Hafta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_9_Hafta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E3C97FAFD536823F4B8E35 /* Pods-9.Hafta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9.Hafta.debug.xcconfig"; path = "Target Support Files/Pods-9.Hafta/Pods-9.Hafta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CFC5C832FCC646C85BE4A3 /* Pods_9_Hafta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D7F550A0AA22444F013FE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B779AF7535EE5264B1CBB1 /* Pods_9_Hafta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DAAA77E1D63B638E259FF54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8E3C97FAFD536823F4B8E35 /* Pods-9.Hafta.debug.xcconfig */,
+				D9449DBA28F93B4B37E032BE /* Pods-9.Hafta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84229CCB28C2918C00C44386 = {
 			isa = PBXGroup;
 			children = (
 				84229CD628C2918C00C44386 /* 9.Hafta */,
 				84229CD528C2918C00C44386 /* Products */,
+				6DAAA77E1D63B638E259FF54 /* Pods */,
+				6D7F550A0AA22444F013FE42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +97,15 @@
 				84229CD728C2918C00C44386 /* AppDelegate.swift */,
 				84229CD928C2918C00C44386 /* SceneDelegate.swift */,
 				84229CDB28C2918C00C44386 /* ViewController.swift */,
+				84F9BE3A28C4FD0B00360E19 /* CollectionViewCell.swift */,
+				844AFD6128C60F0B00C6219F /* AViewController.swift */,
+				844AFD6328C6191E00C6219F /* BViewController.swift */,
 				84229CDD28C2918C00C44386 /* Main.storyboard */,
+				84783C7928C75F13008379AE /* Localizable.strings */,
 				84229CE028C2918F00C44386 /* Assets.xcassets */,
-				84229CE228C2918F00C44386 /* LaunchScreen.storyboard */,
 				84229CE528C2918F00C44386 /* Info.plist */,
+				84783C7C28C7B5C3008379AE /* MovieModel.swift */,
+				84783C7E28C7BC8D008379AE /* Constants.swift */,
 			);
 			path = 9.Hafta;
 			sourceTree = "<group>";
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84229CE828C2918F00C44386 /* Build configuration list for PBXNativeTarget "9.Hafta" */;
 			buildPhases = (
+				C55642F23469689D556D8CF4 /* [CP] Check Pods Manifest.lock */,
 				84229CD028C2918C00C44386 /* Sources */,
 				84229CD128C2918C00C44386 /* Frameworks */,
 				84229CD228C2918C00C44386 /* Resources */,
+				3B8F5EABB1B4AEAD79198501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +154,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				tr,
 			);
 			mainGroup = 84229CCB28C2918C00C44386;
 			productRefGroup = 84229CD528C2918C00C44386 /* Products */;
@@ -125,7 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84229CE428C2918F00C44386 /* LaunchScreen.storyboard in Resources */,
+				84783C7728C75F13008379AE /* Localizable.strings in Resources */,
 				84229CE128C2918F00C44386 /* Assets.xcassets in Resources */,
 				84229CDF28C2918C00C44386 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B8F5EABB1B4AEAD79198501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-9.Hafta/Pods-9.Hafta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-9.Hafta/Pods-9.Hafta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-9.Hafta/Pods-9.Hafta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55642F23469689D556D8CF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-9.Hafta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84229CD028C2918C00C44386 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84783C7D28C7B5C3008379AE /* MovieModel.swift in Sources */,
 				84229CDC28C2918C00C44386 /* ViewController.swift in Sources */,
+				844AFD6428C6191E00C6219F /* BViewController.swift in Sources */,
 				84229CD828C2918C00C44386 /* AppDelegate.swift in Sources */,
+				84F9BE3B28C4FD0B00360E19 /* CollectionViewCell.swift in Sources */,
 				84229CDA28C2918C00C44386 /* SceneDelegate.swift in Sources */,
+				844AFD6228C60F0B00C6219F /* AViewController.swift in Sources */,
+				84783C7F28C7BC8D008379AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,16 +245,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				84229CDE28C2918C00C44386 /* Base */,
+				84783C7128C75E09008379AE /* de */,
+				84783C7328C75E23008379AE /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84229CE228C2918F00C44386 /* LaunchScreen.storyboard */ = {
+		84783C7928C75F13008379AE /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84229CE328C2918F00C44386 /* Base */,
+				84783C7828C75F13008379AE /* de */,
+				84783C7A28C77754008379AE /* en */,
+				84783C7B28C77755008379AE /* tr */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -282,6 +382,7 @@
 		};
 		84229CE928C2918F00C44386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E3C97FAFD536823F4B8E35 /* Pods-9.Hafta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +391,7 @@
 				DEVELOPMENT_TEAM = CFVH3G334D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 9.Hafta/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For the select photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +412,7 @@
 		};
 		84229CEA28C2918F00C44386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9449DBA28F93B4B37E032BE /* Pods-9.Hafta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +421,7 @@
 				DEVELOPMENT_TEAM = CFVH3G334D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 9.Hafta/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For the select photo.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
